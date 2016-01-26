@@ -7,7 +7,7 @@ build:
         flags: --buildDrafts=true
 deploy:
   steps:
-    - ysqui/git-push@0.7.15:
+    - ysqi/git-push@0.7.15:
         gh_oauth: $GIT_TOKEN
         branch: master
         basedir: public
