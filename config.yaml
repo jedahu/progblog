@@ -1,0 +1,21 @@
+---
+baseurl: https://jedahu.github.io/
+languageCode: en-us
+title: Jed at work
+theme: hyde-x
+paginate: 10
+
+author:
+  name: "Jed"
+
+params:
+  home: Jed at work
+  truncate: false
+  highlight: sunburst
+  theme: theme-base-08
+  copyright: jedahu All rights reserved.
+  twitter: https://twitter.com/jedahu
+  github: https://github.com/jedahu/
+  email: jedahu@gmail.com
+  gravatarHash: 3bcc722165fbf5bb60294bcf14f83992
+...
