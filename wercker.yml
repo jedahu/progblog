@@ -1,4 +1,4 @@
-box: ubuntu
+box: samueldebruyn/debian-git
 build:
   steps:
     - arjen/hugo-build@1.8.1:
@@ -7,11 +7,6 @@ build:
         flags: --buildDrafts=true
 deploy:
   steps:
-    - script:
-        name: setup
-        code: sudo apt-get update -y -qq
-    - install-packages:
-        packages: git
     - ysqi/git-push@0.7.15:
         gh_oauth: $GIT_TOKEN
         branch: master
