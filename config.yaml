@@ -7,7 +7,7 @@ paginate: 10
 MetaDataFormat: yaml
 
 author:
-  name: "Jed"
+  name: "Jeremy"
 
 params:
   home: Jed at work
