@@ -7,4 +7,5 @@ deploy:
   steps:
     - wt365/gh-pages@0.3.4:
         token: $GIT_TOKEN
+        repo: jedahu/jedahu.github.io
         path: public
