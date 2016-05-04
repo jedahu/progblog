@@ -12,7 +12,7 @@ author:
 params:
   home: Jed at work
   truncate: false
-  highlight: sunburst
+  highlight: solarized_light
   theme: theme-base-08
   copyright: jedahu All rights reserved.
   twitter: https://twitter.com/jedahu
