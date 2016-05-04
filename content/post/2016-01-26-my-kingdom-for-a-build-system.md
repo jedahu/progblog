@@ -3,8 +3,8 @@ date: 2016-01-26
 title: My kingdom for a build system
 ---
 
-The DNX based projects I've created all use a simple Powershell script
-for building. It is only 44 l lines long with a function for each build phase.
+The DNX based projects I've created all use a simple Powershell script for
+building. It is only 44 lines long with a function for each build phase.
 
 The script amounts to a thin wrapper over dnx and dnu commands which applies
 them to (potentially) more than one project. The script requires a conventional
