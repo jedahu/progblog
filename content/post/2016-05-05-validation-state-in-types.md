@@ -1,5 +1,5 @@
 ---
-date: 2016-05-05
+date: 2016-05-05 07:20:00+12:00
 title: Store validation state in types
 ---
 
