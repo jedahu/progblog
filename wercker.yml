@@ -6,5 +6,5 @@ build:
 deploy:
   steps:
     - wt365/gh-pages@0.3.4:
-        gh_oauth: $GIT_TOKEN
+        token: $GIT_TOKEN
         path: public
