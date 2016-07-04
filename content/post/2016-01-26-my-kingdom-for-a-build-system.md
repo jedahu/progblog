@@ -63,11 +63,9 @@ automatic import of required NuGet packages and plenty of plugins, but they only
 provide #1.
 
 I rewrote the build script with Cake but reverted to Powershell because of a
-[Powershell integration problem][p] and because the experience was not pleasant.
+Powershell integration problem and because the experience was not pleasant.
 Cake does some strange things with global scope and its plugin system is simply
 bizarre.
-
-[p]: https://github.com/tflite/TakeFlite.Storage/commit/f5d1b7ed5f82eb2cafab2336b1579ff7e788eb29
 
 
 ## System status
